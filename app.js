@@ -1,7 +1,6 @@
 var express = require('express')
 var app = express()
 var path = require('path')
-var hbs = require('hbs')
 var session = require('express-session')
 const request = require('request')
 //db connection
