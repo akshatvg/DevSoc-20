@@ -445,6 +445,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
+  /* background: url("../img/intro-bg.jpg") top center; */
 }
 
 #intro:before {
@@ -1086,7 +1087,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #supporters img {
   height: 70px;
   width: 250px;
-  padding: 10px;
+  padding: 5px;
   transition: all 0.4s ease-in-out;
 }
 
@@ -1529,11 +1530,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 767px) {
-  #subscribe input {
-    min-width: 400px;
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 450px) {
+  video {
+    display: none;
   }
 }
+
+@media (min-width: 767px) {}
 
 @media (min-width: 768px) {
 
@@ -1660,4 +1672,25 @@ div#preloader {
   overflow: visible;
   background: #0E0C0D url('../img/preloader.gif') no-repeat center center;
   margin: 0;
+}
+
+/* ------------------------------------------------------------------- 
+ * ## responsive video container
+ * ------------------------------------------------------------------- */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed,
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
