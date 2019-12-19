@@ -445,7 +445,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  /* background: url("../img/intro-bg.jpg") top center; */
 }
 
 #intro:before {
@@ -1542,6 +1541,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media only screen and (max-width: 450px) {
   video {
     display: none;
+  }
+
+  #intro {
+    background-image: url("../img/bg-img-white.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
