@@ -1087,7 +1087,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #supporters img {
   height: 70px;
   width: 250px;
-  padding: 5px;
+  padding: 8px;
   transition: all 0.4s ease-in-out;
 }
 
