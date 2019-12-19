@@ -149,7 +149,6 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  transition: all 0.5s;
   z-index: 997;
 }
 
@@ -158,7 +157,6 @@ h6 {
   background: rgba(6, 12, 34, 0.98);
   height: 70px;
   padding: 15px 0;
-  transition: all 0.5s;
 }
 
 #header #logo h1 {
@@ -288,7 +286,6 @@ h6 {
   left: 0;
   background-color: #26A8E0;
   visibility: hidden;
-  transition: all 0.3s ease-in-out 0s;
 }
 
 .nav-menu a:hover:before,
@@ -296,29 +293,6 @@ h6 {
 .nav-menu .menu-active>a:before {
   visibility: visible;
   width: 100%;
-}
-
-.nav-menu li.buy-tickets a {
-  color: #fff;
-  background: #26A8E0;
-  padding: 7px 22px;
-  border-radius: 50px;
-  border: 2px solid #26A8E0;
-  transition: all ease-in-out 0.3s;
-  font-weight: 500;
-  margin-left: 8px;
-  margin-top: 2px;
-  line-height: 1;
-  font-size: 13px;
-}
-
-.nav-menu li.buy-tickets a:hover {
-  background: none;
-}
-
-.nav-menu li.buy-tickets:hover a:before,
-.nav-menu li.buy-tickets.menu-active a:before {
-  visibility: hidden;
 }
 
 .nav-menu ul {
@@ -1109,6 +1083,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters img {
+  height: 70px;
+  width: 250px;
+  padding: 10px;
   transition: all 0.4s ease-in-out;
 }
 
@@ -1670,4 +1647,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   #subscribe button {
     margin-top: 10px;
   }
+}
+
+div#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  background: #0E0C0D url('../img/preloader.gif') no-repeat center center;
+  margin: 0;
 }
