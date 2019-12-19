@@ -1,7 +1,6 @@
 var express = require('express')
 var app = express()
 var path = require('path')
-var session = require('express-session')
 const request = require('request')
 //db connection
 require('dotenv').config()
@@ -19,12 +18,6 @@ var contactUs = require('./models/db-contact')
 var bodyParser = require('body-parser')
 
 var port = process.env.PORT || 3000
-
-app.use(session({
-    secret: 'devsoc',
-    resave: true,
-    saveUninitialized: true
-}));
 
 app.use(express.static("static"))
 app.use(bodyParser.json())
