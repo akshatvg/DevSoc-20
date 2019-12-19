@@ -2,6 +2,11 @@
 # General
 --------------------------------------------------------------*/
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fff;
   color: #2f3138;
@@ -791,8 +796,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
-.speaker img{
-  height: 400px;
+.speaker img {
+  height: 410px;
   width: 350px;
 }
 
