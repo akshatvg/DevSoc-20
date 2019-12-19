@@ -180,9 +180,10 @@ h6 {
 }
 
 #header #logo img {
-  padding: 0;
+  padding: 0px;
   margin: 0;
-  max-height: 40px;
+  max-height: 45px;
+  width: 120px;
 }
 
 /*--------------------------------------------------------------
@@ -591,8 +592,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1;
   margin: 10px;
   color: #fff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
   border: 2px solid #26A8E0;
 }
 
