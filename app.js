@@ -3,7 +3,7 @@ var app = express()
 var path = require('path')
 const request = require('request')
 //db connection
-require('dotenv').config()
+var dotenv = require('dotenv').config()
 var db = require('./config/keys')
 var mongoose = require('mongoose')
 mongoose.connect(db.mongoDB, {

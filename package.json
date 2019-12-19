@@ -26,6 +26,7 @@
   },
   "homepage": "https://devsoc20.codechefvit.com",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "hbs": "^4.0.6",
     "mongodb": "^3.2.5",
