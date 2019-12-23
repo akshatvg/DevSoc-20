@@ -1,0 +1,73 @@
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.page-header-alpha .navbar-mainmenu .nav-item a:hover {
+  color: #26A8E0;
+}
+
+.btn-white {
+  color: #ffffff;
+  border: 1px solid transparent;
+  background-color: #26A8E0;
+}
+
+.btn-white:hover {
+  background-color: #26A8E0;
+  color: #ffffff;
+}
+
+.btn-outline-primary {
+  color: #26A8E0;
+  border-color: currentColor;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: #26A8E0;
+  border-color: currentColor;
+}
+
+.btn-transp-arrow.btn-primary.active,
+.btn-transp-arrow.btn-primary:active,
+.btn-transp-arrow.btn-primary:hover {
+  background-color: rgba(77, 77, 77, 0.05);
+  color: #8b8b8b;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* subscription form */
+.form-container-transparent.form-container-white .form-desc h4 {
+  color: #ffffff;
+}
+
+.form-container-transparent.form-container-white .form-input label {
+  color: #ffffff;
+}
+
+.form-control-outline,
+.form-control-line {
+  border-color: #ffffff;
+}
+
+.form-control-outline:focus,
+.form-control-line:focus {
+  border-color: #adadad;
+}
+
+.page-cover:after {
+  content: "";
+  background: -webkit-gradient(linear, right top, left top, from(rgba(38, 168, 224, 0.637)), to(rgba(27, 89, 151, 0.897)));
+  background: linear-gradient(to left, rgba(38, 168, 224, 0.637), rgba(27, 89, 151, 0.863));
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.7;
+}
