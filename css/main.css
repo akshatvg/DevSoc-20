@@ -6424,14 +6424,14 @@ textarea {
   .sec2 h6 {
     animation-duration: 1s;
     animation-name: slideright;
-    animation-delay: 4.5s;
+    animation-delay: 5s;
   }
 
   .sec2 p,
   .sec2 img {
     animation-duration: 1s;
     animation-name: slideleft;
-    animation-delay: 4.5s;
+    animation-delay: 5s;
   }
 
   .sec3 h1,
@@ -6460,14 +6460,14 @@ textarea {
   .sec4 h6 {
     animation-duration: 1s;
     animation-name: slideright;
-    animation-delay: 6.5s;
+    animation-delay: 8s;
   }
 
   .sec4 p,
   .sec4 img {
     animation-duration: 1s;
     animation-name: slideleft;
-    animation-delay: 6.5s;
+    animation-delay: 8s;
   }
 
   .sec5 h1,
@@ -6478,14 +6478,14 @@ textarea {
   .sec5 h6 {
     animation-duration: 1s;
     animation-name: slideright;
-    animation-delay: 7.5s;
+    animation-delay: 9s;
   }
 
   .sec5 p,
   .sec5 img {
     animation-duration: 1s;
     animation-name: slideleft;
-    animation-delay: 7.5s;
+    animation-delay: 9s;
   }
 
   .sec6 h1,
@@ -6496,14 +6496,14 @@ textarea {
   .sec6 h6 {
     animation-duration: 1s;
     animation-name: slideright;
-    animation-delay: 8s;
+    animation-delay: 11s;
   }
 
   .sec6 p,
   .sec6 img {
     animation-duration: 1s;
     animation-name: slideleft;
-    animation-delay: 8s;
+    animation-delay: 11s;
   }
 
   .sec7 h1,
@@ -6514,14 +6514,14 @@ textarea {
   .sec7 h6 {
     animation-duration: 1s;
     animation-name: slideright;
-    animation-delay: 9s;
+    animation-delay: 13s;
   }
 
   .sec7 p,
   .sec7 img {
     animation-duration: 1s;
     animation-name: slideleft;
-    animation-delay: 9s;
+    animation-delay: 13s;
   }
 }
 
