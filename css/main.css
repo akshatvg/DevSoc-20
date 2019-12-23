@@ -6453,7 +6453,6 @@ h4 {
 
 .accordion-section .panel-default .panel-title a {
   display: block;
-  font-style: italic;
   font-size: 1.2rem;
 }
 
@@ -6479,4 +6478,3 @@ h4 {
   color: white;
   font-size: 1.2rem;
 }
-
