@@ -6628,3 +6628,25 @@ h4 {
   color: white;
   font-size: 1.2rem;
 }
+
+#devfolio-apply-now {
+  background-color: #3770FF;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+#devfolio-apply-now:not([disabled]) {
+  cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+  background-color: #2954BF !important;
+}

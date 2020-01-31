@@ -313,5 +313,4 @@ $(document).on('ready', function () {
 		$('.section').addClass('anim');
 	});
 
-
 });
