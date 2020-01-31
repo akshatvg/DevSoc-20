@@ -6650,3 +6650,13 @@ h4 {
 #devfolio-apply-now:hover {
   background-color: #2954BF !important;
 }
+
+.hoverimg{
+  padding: 10px;
+}
+
+.hoverimg:hover {
+  /* box-shadow: 0 0 0 5px solid black; */
+  background-color: rgba(255, 255, 255, 0.678);
+  padding: 10px;
+}
