@@ -1,2 +1,2 @@
 # DevSoc
-The official website of DevSoc 2020- CodeChef VIT Vellore
+The official website for DevSoc 2020 by CodeChef-VIT.
