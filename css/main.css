@@ -6512,6 +6512,13 @@ h4 {
   border-radius: 10px;
 }
 
+.hoverimg2:hover {
+  /* box-shadow: 0 0 0 5px solid black; */
+  background-color: #2954BF;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 .bs-example {
   margin: 20px;
 }
@@ -6544,4 +6551,16 @@ h4 {
     max-width: 900px !important;
     min-width: 900px !important;
   }
+}
+
+.a img:last-child {
+  display: none;
+}
+
+.a:hover img:last-child {
+  display: block;
+}
+
+.a:hover img:first-child {
+  display: none;
 }
