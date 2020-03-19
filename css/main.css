@@ -4008,7 +4008,7 @@ textarea {
   width: 100%;
   height: 100%;
   /*  Page cover background image,color */
-  background: url(../img/bg-img-white.jpg);
+  background: url("../img/bg-img-white.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
